@@ -63,8 +63,12 @@ class exam extends Questions {
 
 	
 }
-
+//client
 class main{
 	// TODO Auto-generated method stub
-	
+	void m1(Questions[] cc){
+		for(Questions c : cc){
+			c.print();
+		}
+	}
 }
